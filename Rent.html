@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>Rent</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=100%, height=100%, initial-scale=1">
+    
+    <meta name="title" content="Rent">
+    <meta name="description" content="Experience something new every moment! 
+    It is possible in a guesthouse viter B&B with a lot of activities. Nearby 
+    there are a number of supermarkets such as Dunnes Store, Lild etc., also 5 
+    metres from the guesthouse is a bike rental and if you follow the path 
+    behind the guesthouse you can take the GreenWay to Fenit to the beach, 
+    also a 10-minute walk to the theatre in the city centre, also a 5-minute 
+    walk to shopping centres, cafes, restaurants and pubs.">
+    <meta name="keywords" content="rent b&b, rent a room, Ireland, Tralee, 
+    room to rent, 2 bedroom house for rent, Disability-friendly room">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="author" content="Mykhailo Hnylytskyi">
+    
+    <meta name="keywords" content="Fast food, Breakfast, Tralee, Ireland, Swimming Pool, Luxury Room, nature, Wine Bar">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="author" content="Mykhailo Hnylytskyi">
+
+    
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src = "distancecalc.js"></script>
+    
+  </head>
+  <body>
+
+<div class = "box">
+
+<header>
+
+    <img src = "Images/logo.png" alt = "logo">
+    
+    <nav>
+        <ul>  
+            <li><a href="Index.html">Home</a></li>  
+            <li><a href="FeedBack.html">Feedback</a></li>  
+        </ul>
+    </nav>
+</header>
+
+<h1>viter B&B Booking</h1>
+
+<div class = "formdisc">
+    <p>Experience something new every moment!</p>
+</div>
+
+<div class = "place">
+
+<div class="containerForRent">
+    <img src="Images/rod-long-2P_ifaetDm0-unsplash.jpg" alt="room">
+    
+    <p>Double room</p>
+</div>
+
+<div class = "containerForRent">
+    <img src="Images/hotel-lal-garh-fort-and-palace-kzwWwsDUvas-unsplash.jpg" alt="room">
+    
+    <p>Single room</p>
+</div>
+
+<div class="containerForRent">
+    <img src="Images/john-cameron-_RKgdOuNzY0-unsplash.jpg" alt="room">
+    
+    <p>Disability-friendly room</p>
+</div>
+
+<div class="containerForRent">
+    <div class = "relative"><img src="Images/sara-dubler-Koei_7yYtIo-unsplash.jpg" alt="room">
+        <!-- image Sign design by tamplate from https://www.canva.com/-->
+    <div class = "picture"><img src = "Images/sign.png" alt = "sign"></div>
+    
+    <p>Luxury room</p>
+    </div>
+</div>
+</div>
+
+<div class="rent">
+
+    <form action="mailto:Mykhailo.Hnylytskyi@students.ittralee.ie" method="post" enctype="text/plain">
+    <div class="group">
+        <label>Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+
+    <div class ="group">
+            <label for = "email">Email</label>
+            <input type = "email" id="email" name="email" placeholder="ex: myname@example.com">
+    </div>
+    
+    <div class = "group">
+        <label>Room</label>
+            <select name="rooms">
+                <option value="blank">Select room</option>  
+                <option value="room">Single room</option>
+                <option value="room">Double room</option>
+                <option value="room">Disability-friendly room</option>
+                <option value="room">Luxury room</option>
+            </select>
+    </div>
+    
+    <div class = "group">
+        <label for = "number">Number of Guests</label>
+        <input type="text" id = "number" name="numofguests">
+    </div>
+    
+    
+    <!--use it here for better understanding how it works: https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_input_type_datetime-local-->
+    <div class = "group">
+        <label for = "date">Arrival Date & Time</label>
+        <input type="datetime-local" id = "date" name ="time">
+    </div>
+    
+    <div class = "group">
+        <label for = "dup">Departure Date</label>
+        <input type="datetime-local" id = "dup" name ="time">
+    </div>
+    
+    <div class="group">
+        <label>Free Pickup?</label>
+            <input type="radio" id="yes" name="point" value="Yes">
+                <label>Yes Please! - Pick me up on arrival</label>
+            <input type="radio" id="no" name="point" value="No">
+                <label>No Thanks - I'll make my own way there</label>
+    </div>
+    
+    <div class="group">
+        <label for="subject">Special Requests</label>
+            <textarea id="subject" name="subject" placeholder="Optional.." rows="5" cols="50"></textarea>
+    </div>
+    
+    <div class="row">
+        <input TYPE="submit" value="Submit">
+    </div>
+    
+    <div class="row">
+        <input TYPE="reset" value="Reset">
+    </div>
+  
+  </form>
+
+</div>
+
+</div>
+
+<footer>
+    <div class = "footerimg">
+        <img src = "Images/favicon.jpg" alt = "logo">
+    </div>
+
+    <div class="row">
+        <ul>
+            <li><a href="mailto:Mylhailo.Hnylytskyi@students.ittralee.ie">Contact us</a></li>
+            <li><a href="https://www.bandbireland.com/pages/privacy">Privacy Policy</a></li>
+            <li><a href="https://www.bandbireland.com/pages/terms-conditions">Terms & Conditions</a></li>
+        </ul>
+    </div>
+
+
+    <p>viter B&B Copyright &copy; 2024 viter B&B - All rights reserved || Designed By: Mykhailo Hnylytskyi </p>
+
+</footer>
+
+  </body>
+</html>

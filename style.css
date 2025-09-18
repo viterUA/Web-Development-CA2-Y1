@@ -1,0 +1,410 @@
+body{
+    background-image: url('Images/joshua-woroniecki-BEZjwN7uTds-unsplash1920x1080.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin:0;
+    overflow-x:hidden;
+    
+}
+
+.navigation {
+    overflow: hidden;
+    background-color: #5ea822;
+}
+.navigation a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    flex: 1;
+}
+
+h1{
+    color: green;
+    text-align: center;
+    padding: 2%;
+}
+
+h2{
+    color: green;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.box{
+    background: white;
+    font-family: lato,sans-serif;
+    border:1px solid #7f7f7f;
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    font-size:16px;
+    margin-top:3%;
+    text-align:left;
+    padding:5%;       
+    }
+    
+.box2{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+}
+
+footer{
+    background:#5ea822;
+    padding:5px;
+    font-family: lato, sans-serif;
+    list-style:none;
+}
+
+footer p{
+    font-size: 12px;
+    text-align: center;
+}
+
+footer .row{
+    width:100%;
+    padding:10px;
+    color:black;
+    font-size:0.8em;
+    text-align: center;
+}
+
+footer .row a{
+    text-decoration:none;
+    color:black;
+}
+
+footer .row a:hover{
+    color:#fff;
+}
+
+footer .row ul{
+    width:100%;
+    list-style: none;
+    margin:0px;
+}
+
+footer li{
+    padding: 10px;
+    display: inline;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footerimg {
+    text-align: center;
+}
+
+.pageplugin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+
+
+    
+}
+
+.fb-page{
+    margin-right: 20px; 
+}
+
+.twitter-timeline{
+    margin-left: 20px;
+
+}
+
+.container{ 
+    border: 1px solid;
+    width: 430px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 10px;
+    margin: 5px; 
+                                
+}
+
+.containerForRent{
+    border: 1px solid;
+    width: 220px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 5px;
+    margin: 5px; 
+}
+
+.place{ 
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 2em;
+    justify-content:center;
+}
+
+.button{
+    background: gray;
+    color: #fff;
+    text-align: center;
+    width:auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    align-items: flex-end;
+    border-radius: 10px;
+}
+
+
+header{
+    width: 90%;
+    margin: 0 auto;
+}
+nav ul {  
+    list-style-type: none;  
+    margin: 0;  
+    padding: 0px;  
+    overflow: hidden;  
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center; 
+  
+   
+}  
+  
+nav li {  
+    float: left;  
+}  
+  
+nav li a {  
+    display: block;  
+    color: black;  
+    font-size:20px;  
+    text-align: center;  
+    padding: 10px 20px;  
+    text-decoration: none;
+    font-weight: bold;
+}  
+.active{  
+    background-color: #10CE00;  
+    color: white;  
+}  
+nav li a:hover {  
+    background-color: #10CE00;  
+    color: white;  
+}  
+
+.container a{
+    text-decoration: none;  
+    color: white;
+}
+
+h2{
+    font-family: lato,sans-serif;
+    font-size:20px;
+}
+
+p{
+    font-family: lato,sans-serif;
+    font-size:16px;
+}
+
+.picture{
+	width: 90px; 
+	position:absolute;
+	top: 0;
+    right:0;
+    
+}
+
+.relative{
+    position:relative;
+}
+
+.formbox input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: lato,sans-serif;
+    resize: none;
+}
+
+.formbox label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: #EEEEEE;
+    color: black;
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.formdisc{
+    font-family: lato,sans-serif;
+    padding: 10px 8px;
+    margin: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rent input[type=text], select, textarea{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-25-rent {
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75-rent {
+    float: right;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.rent{
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.rent input[type=text], [type=email], [type=datetime-local],select, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: lato,sans-serif;
+    resize: none;
+    margin: 5px auto;
+}
+
+.rent .group{
+    margin-bottom: 20px;
+}
+.rent label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+@media (max-width:768px){
+
+footer{
+
+    padding:5%;
+}
+footer .row ul li{
+
+    margin:10px 0;
+}
+
+.hiddenText{
+    display:none;
+}
+
+.place{
+    justify-content: center;
+}
+
+.pageplugin{
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+.twitter-timeline{
+    padding: 10px;
+}
+
+  .col-25, .col-75, input[type=submit], input[type=reset] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+@media (max-width:576px){
+
+footer{
+    padding:5%;
+}
+footer .row ul li{
+
+    margin:10px 0px;
+}
+
+footer .row a i{
+    margin:0% 3%;
+}
+
+.twitter-timeline{
+    padding: 10px;
+}
+
+.picture img{
+	width: 30px; 
+	position:absolute;
+	top: 0;
+    right:0;
+}
+
+.formbox label{
+    font-size: 14px;
+}
+
+.pageplugin{
+
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+.fb-page{
+    padding: 20px; 
+}
+}
